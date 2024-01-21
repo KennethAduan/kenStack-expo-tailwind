@@ -1,4 +1,4 @@
-# KenStack Expo Router
+# KenStack Expo Router Tailwind
 
 KenStack Expo Router is a React Native boilerplate for building cross-platform mobile applications using Expo. It includes a powerful set of tools and libraries to kickstart your project.
 
