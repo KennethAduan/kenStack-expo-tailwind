@@ -1,11 +1,12 @@
-import { NetworkInfo } from 'hooks/CheckInternetConnection';
-import { ProviderProps } from 'interfaces/ProviderInterface';
 import React from 'react';
 import { AlertNotificationRoot, ALERT_TYPE, Toast } from 'react-native-alert-notification';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 import ReactQueryProvider from './ReactQueryProvider';
 import ReduxProvider from './ReduxProvider';
+
+import { NetworkInfo } from '~/src/hooks/CheckInternetConnection';
+import { ProviderProps } from '~/src/interfaces/ProviderInterface';
 
 const AppProviders = ({ children }: ProviderProps) => {
   const isNetworkUnavailable = NetworkInfo();
